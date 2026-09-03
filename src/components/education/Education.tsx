@@ -1,15 +1,6 @@
-import React from 'react'
+import { BookOpen, GraduationCap } from 'lucide-react'
 import { EDUCATION } from '../../data/portfolio'
 
-export default function Education(){
-  return (
-    <section id="education" className="section">
-      <h2>Education</h2>
-      <div className="card">
-        <div style={{fontWeight:700}}>{EDUCATION.degree}</div>
-        <div className="muted">{EDUCATION.school} • {EDUCATION.date}</div>
-        <div style={{marginTop:8}}>Relevant coursework: {EDUCATION.coursework.join(', ')}</div>
-      </div>
-    </section>
-  )
+export default function Education() {
+  return <section id="education" className="section education"><header className="section-heading"><span>05 / EDUCATION</span><h2>Grounded in computer<br /><em>science fundamentals.</em></h2></header><article className="education-card"><div className="degree-icon"><GraduationCap /></div><div><p className="overline">MASTER'S DEGREE · {EDUCATION.date}</p><h3>{EDUCATION.degree}</h3><p className="school">{EDUCATION.school}</p></div><div className="coursework"><p><BookOpen size={16} /> Relevant coursework</p><div className="tags">{EDUCATION.coursework.map(course => <span key={course}>{course}</span>)}</div></div></article></section>
 }

@@ -1,34 +1,37 @@
-# Portfolio — Nihanth Kumar Reddy Kethireddy
+# Nihanth Kethireddy — Portfolio
 
-This is a static Vite + React + TypeScript portfolio intended for deployment to GitHub Pages at https://nihanthkethireddy.github.io/portfolio/
+A static, responsive portfolio for Nihanth Kumar Reddy Kethireddy, built with Vite, React, TypeScript, Framer Motion, and Lucide. It is configured for the GitHub project page at <https://nihanthkethireddy.github.io/portfolio/>.
 
-Local development
+## Local development
 
 ```bash
 npm install
 npm run dev
 ```
 
-Build
+Open the local URL printed by Vite. To test the production build:
 
 ```bash
-npm run build
+npm run verify:deploy
 npm run preview
 ```
 
-Profile photo
+## Content and assets
 
-Place your LinkedIn profile photo at `public/assets/nihanth-profile.jpg` (exact path). A placeholder SVG exists at that path; replace it with a real JPEG for a polished hero portrait.
+- Update portfolio copy, roles, projects, skills, contact links, and `RESUME_URL` in `src/data/portfolio.ts`.
+- The profile image lives at `public/assets/nihanth-profile.jpg`. Replace that file with a suitably optimized portrait using the same filename.
+- Company logo SVGs live in `public/assets/company-logos/`. Each image has a text-based fallback treatment in its source asset and an accessible `alt` in the interface.
 
-Vite base path
+Asset URLs are resolved through Vite's `BASE_URL`, and `vite.config.ts` sets the GitHub Pages project base to `/portfolio/`.
 
-Vite is configured with `base: '/portfolio/'` in `vite.config.ts` to support GitHub Pages.
+## GitHub Pages deployment
 
-Deploying to GitHub Pages
+The workflow in `.github/workflows/deploy-pages.yml` checks TypeScript, builds, uploads the Pages artifact, and deploys on every push to `main`.
 
-1. Push to the repository `main` (or `master`).
-2. The included GitHub Actions workflow at `.github/workflows/deploy-pages.yml` builds and deploys `dist` to GitHub Pages.
+In the GitHub repository, open **Settings → Pages → Build and deployment**, choose **GitHub Actions** as the source, then push:
 
-Update resume link
+```bash
+git push origin main
+```
 
-To update the resume URL, edit `src/data/portfolio.ts` and change `RESUME_URL`.
+You can also run the workflow manually from the repository's **Actions** tab.
