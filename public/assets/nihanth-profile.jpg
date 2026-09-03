@@ -1,0 +1,19 @@
+<!--
+Placeholder SVG image saved with .jpg extension. Please replace with a real JPEG
+profile photo at public/assets/nihanth-profile.jpg (exact path required).
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#6EE7F9"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#071026" />
+  <circle cx="600" cy="420" r="260" fill="url(#g)" opacity="0.12" />
+  <g fill="#fff" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="600" y="620" font-size="80">Profile photo</text>
+    <text x="600" y="700" font-size="40">Drop your LinkedIn photo at</text>
+    <text x="600" y="760" font-size="28">public/assets/nihanth-profile.jpg</text>
+  </g>
+</svg>
