@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="eyebrow"><span className="status-dot" /> {HERO.label}</div>
       <h1 id="hero-title">Nihanth Kumar<br /><span>Reddy Kethireddy</span></h1>
       <p className="hero-role">{HERO.subtitle}</p><p className="hero-blurb">{HERO.blurb}</p>
-      <div className="hero-actions"><a className="button primary" href="#projects">View my work <ArrowDownRight size={17} /></a><a className="button secondary" href={RESUME_URL} target="_blank" rel="noopener noreferrer">Resume <Download size={16} /></a></div>
+      <div className="hero-actions"><a className="button primary" href="#projects">View my work <ArrowDownRight size={17} /></a><a className="button secondary" href={RESUME_URL} target="_blank" rel="noopener noreferrer" download="Nihanth-Kethireddy-Resume.pdf">Resume <Download size={16} /></a></div>
       <div className="hero-summary" aria-label="Current focus areas">
         <span className="summary-label">Current focus</span>
         <div className="hero-tags">

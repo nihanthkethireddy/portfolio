@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Ino Solutions logo">
+  <rect width="160" height="160" rx="28" fill="#0F172A"/>
+  <rect x="18" y="18" width="124" height="124" rx="22" fill="#0B1F2E" stroke="#5EEAD4" stroke-width="2"/>
+  <path d="M46 108V52h16l18 25 18-25h16v56h-14V74l-20 28-20-28v34H46z" fill="#E6FFFB"/>
+  <path d="M98 52h18v56h-18z" fill="#5EEAD4"/>
+</svg>

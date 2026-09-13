@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Source Consulting logo">
+  <rect width="160" height="160" rx="28" fill="#0D1322"/>
+  <rect x="18" y="18" width="124" height="124" rx="22" fill="#101A2A" stroke="#A5B4FC" stroke-width="2"/>
+  <path d="M46 108V52h18l20 22 20-22h18v56h-16V72L84 96 62 72v36H46z" fill="#E2E8F0"/>
+  <circle cx="115" cy="54" r="12" fill="#A5B4FC"/>
+</svg>
