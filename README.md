@@ -1,6 +1,6 @@
 # Nihanth Kethireddy — Portfolio
 
-A static, responsive portfolio for Nihanth Kumar Reddy Kethireddy, built with Vite, React, TypeScript, Framer Motion, and Lucide. It is configured for the GitHub project page at <https://nihanthkethireddy.github.io/portfolio/>.
+A static, responsive portfolio for Nihanth Kumar Reddy Kethireddy, built with Vite, React, TypeScript, Framer Motion, and Lucide. It is configured for the GitHub project page at <https://nihanthkethireddy.github.io/>.
 
 ## Local development
 
@@ -22,7 +22,7 @@ npm run preview
 - The profile image lives at `public/assets/nihanth-profile.jpg`. Replace that file with a suitably optimized portrait using the same filename.
 - Company logo SVGs live in `public/assets/company-logos/`. Each image has a text-based fallback treatment in its source asset and an accessible `alt` in the interface.
 
-Asset URLs are resolved through Vite's `BASE_URL`, and `vite.config.ts` sets the GitHub Pages project base to `/portfolio/`.
+Asset URLs are resolved through Vite's `BASE_URL`, and `vite.config.ts` sets the GitHub Pages project base to `/`.
 
 ## GitHub Pages deployment
 

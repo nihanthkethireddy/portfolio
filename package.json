@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "1.0.0",
   "private": true,
-  "homepage": "http://nihanthkethireddy.github.io/portfolio/",
+  "homepage": "http://nihanthkethireddy.github.io/",
   "scripts": {
     "start": "vite",
     "dev": "vite",

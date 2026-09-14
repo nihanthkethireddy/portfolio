@@ -1,6 +1,6 @@
 export const PORTFOLIO_OWNER = 'Nihanth Kumar Reddy Kethireddy'
-export const GITHUB_REPOSITORY_URL = 'https://github.com/nihanthkethireddy/portfolio'
-export const GITHUB_PAGES_URL = 'https://nihanthkethireddy.github.io/portfolio/'
+export const GITHUB_REPOSITORY_URL = 'https://github.com/nihanthkethireddy'
+export const GITHUB_PAGES_URL = 'https://nihanthkethireddy.github.io/'
 export const PROFILE_IMAGE_PATH = 'assets/nihanth-profile.jpg'
 export const RESUME_URL = 'https://1drv.ms/w/c/854460d8613affa5/IQD9jpWMbDOESLS-1u5tcNcUAS9Td-dD-6p38OiZWb6ofS8?e=RVGutY&download=1'
 
